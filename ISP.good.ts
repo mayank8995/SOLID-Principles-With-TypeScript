@@ -14,7 +14,6 @@ interface FreePlans {
 }
 interface PremiumPlans {
     premiumPlans(): void;
-
 }
 /** 
  *  Suppose hotstar do not give free and monthly plan

@@ -11,8 +11,8 @@ interface Plans{
 }
 
 /** 
- *  Suppose hotstar do not give free and monthly plan
- then it is not good approach to use others
+ *  Suppose hotstar does not give free plan and monthly plan
+ then it is not good approach to have these methods here.
  * */
 class Hotstar implements Plans {
     monthlyPlans(): void { //no use
